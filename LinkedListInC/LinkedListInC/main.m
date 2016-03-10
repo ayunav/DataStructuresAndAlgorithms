@@ -38,14 +38,14 @@ void insertAtNthPosition(int data, int n) {
     struct Node *temp1 = (struct Node*)malloc(sizeof(struct Node));
     temp1->data = data;
     temp1->next = nil;
-    if (n == 1) {
+    if (n == 0) {
         temp1->next = head;
         head = temp1;
         return;
     }
     
     struct Node *temp2 = head;
-    for (int i = 0; i < n-2; i++) {
+    for (int i = 0; i < n-1; i++) {
         temp2 = temp2->next;
     }
     temp1->next = temp2->next;
@@ -55,14 +55,14 @@ void insertAtNthPosition(int data, int n) {
 void deleteAtNthPosition(int n) {
     struct Node *temp1 = head;
     
-    if (n == 1) {
+    if (n == 0) {
         head = temp1->next;
         free(temp1);
         return;
     }
     
     int i;
-    for (i = 0; i < n-2; i++) {
+    for (i = 0; i < n-1; i++) {
         temp1 = temp1->next;
     }
     struct Node *temp2 = temp1->next;
@@ -98,18 +98,17 @@ int main(int argc, const char * argv[]) {
 //            
 //        }
 
-        insertAtNthPosition(2, 1); // 2
+        insertAtNthPosition(2, 0); // 2
         print();
-        insertAtNthPosition(6, 1); // 6, 2
+        insertAtNthPosition(6, 1); // 2, 6
         print();
-        insertAtNthPosition(5, 2); // 6, 5, 2
+        insertAtNthPosition(5, 2); // 2, 6, 5
         print();
-        insertAtNthPosition(3, 3); // 6, 5, 3, 2
+        insertAtNthPosition(3, 3); // 2, 6, 5, 3
         print();
-        
-        
-//        deleteAtNthPosition(3);
-//        print();
+
+        deleteAtNthPosition(3); // 2, 6, 5
+        print();
     }
     return 0;
 }

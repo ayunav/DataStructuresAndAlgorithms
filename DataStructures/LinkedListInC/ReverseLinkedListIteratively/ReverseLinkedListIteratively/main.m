@@ -54,7 +54,7 @@ struct Node* reverse (struct Node *head) {
     while (current != nil) {
         printf("current is %d ", current->data);
         next = current->next;
-        printf("next is %d ", next->data);
+        // printf("next is %d ", next->data);
         current->next = prev;
         prev = current;
         current = next;

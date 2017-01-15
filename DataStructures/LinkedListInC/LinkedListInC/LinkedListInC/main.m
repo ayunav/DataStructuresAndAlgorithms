@@ -8,7 +8,6 @@
 
 #import <Foundation/Foundation.h>
 
-
 struct Node {
     int data;
     struct Node *next;

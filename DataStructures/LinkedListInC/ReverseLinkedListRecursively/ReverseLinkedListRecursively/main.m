@@ -20,6 +20,7 @@ struct Node* insert(struct Node *head, int data) {
     struct Node *temp = (struct Node*)malloc(sizeof(struct Node));
     temp->data = data;
     temp->next = nil;
+    
     if (head == nil) head = temp;
     else {
         struct Node *temp1 = head;

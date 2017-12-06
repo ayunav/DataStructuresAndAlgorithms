@@ -6,7 +6,7 @@ C
 - [Linked List in C](https://github.com/ayunav/DataStructuresAndAlgorithms/tree/master/DataStructures/LinkedListInC)
 
 Swift
-- [Stack in Swift](https://github.com/ayunav/DataStructuresAndAlgorithms/tree/master/DataStructures/StackSwift.playground)
+- [Stack in Swift](https://github.com/ayunav/DataStructuresAndAlgorithms/tree/master/DataStructures/Stack)
 - [2d Array in Swift](https://github.com/ayunav/DataStructuresAndAlgorithms/tree/master/DataStructures/2dArraySwift.playground)
 
 

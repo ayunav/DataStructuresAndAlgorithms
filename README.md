@@ -1,6 +1,6 @@
 # Data structures and algorithms
   
-##Data structures
+##  Data structures
 
 C 
 - [Linked List in C](https://github.com/ayunav/DataStructuresAndAlgorithms/tree/master/DataStructures/LinkedListInC)
@@ -10,7 +10,7 @@ Swift
 - [2d Array in Swift](https://github.com/ayunav/DataStructuresAndAlgorithms/tree/master/DataStructures/2dArraySwift.playground)
 
 
-##Problems 
+## Problems 
 
 C
 - [Factorial in C](https://github.com/ayunav/DataStructuresAndAlgorithms/tree/master/Problems/FactorialC)
